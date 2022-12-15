@@ -1,11 +1,14 @@
 import React from "react";
 
+import { AreaFooter } from './styled';
+
 function Footer() {
 
     return(
-        <>
-        Todos os direitos reservados
-        </>
+       <AreaFooter>
+       todos los dereitos reservados
+    
+       </AreaFooter>
     );
 
 }
