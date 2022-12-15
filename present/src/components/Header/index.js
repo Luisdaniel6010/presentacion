@@ -2,6 +2,7 @@
 import React from "react";
 
 import { AreaHeader } from './styled';
+import { Link } from 'react-router-dom'
 
 function Header() {
     return(
@@ -13,10 +14,10 @@ function Header() {
         </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Login</li>
-                <li>Catalogo</li>
-                <li>Registrar</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/Catalogo">Catalogo</Link></li>
+                <li><Link to="/Registro">Registro</Link></li>
             </ul>
         </nav>
     

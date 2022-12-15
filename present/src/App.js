@@ -1,23 +1,23 @@
 import React from "react";
 import './App.css';
 
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink, Routes  } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Routes from "./Routes";
+import Routess from "./Routess";
 
 
 function App() {
 
   return(
-    <BrowserRouter>
-     <Header/>
+    <Router>
 
-      <Routes />
-
+     <Header />
+      <Routess />
      <Footer />
-     </BrowserRouter>
+
+     </Router>
   );
 }
 

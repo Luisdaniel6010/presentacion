@@ -1,11 +1,13 @@
 import React from "react";
 
+import { ContPage } from '../../components/Main'
+
 const Page = () =>{
    
     return(
-        <div>
-            Home
-        </div>
+      <ContPage>
+        
+      </ContPage>
 
     );
 

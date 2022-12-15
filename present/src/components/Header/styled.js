@@ -33,6 +33,15 @@ font-weight: 600;
         li{
             list-style: none;
             margin-left: 100px;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+
+                &:hover{
+                color: #76D7C4;
+                }
+            }
             
         }
 

@@ -1,13 +1,15 @@
 import React from "react";
 
+import { ContPage } from '../../components/Main'
+
 const Page = () =>{
    
     return(
-        <div>
-            Catalogo
-        </div>
-
-    );
+        <ContPage>
+          
+        </ContPage>
+  
+      );
 
 
 }
