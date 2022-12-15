@@ -5,7 +5,7 @@
   
   }
     .cprincipal{
-      background: url(./fondohome.jpg) no-repeat center center fixed;
+      background: url(./components/imagenes/fondohome.jpg) no-repeat center center fixed;
       background-size:cover;
       display: flex;
       flex-direction: row;
@@ -98,7 +98,7 @@
   
     .pie{
       position: relative;
-      background: url(./fondo4.jpg) no-repeat center center fixed;
+      background: url(./components/imagenes/fondo4.jpg) no-repeat center center fixed;
       background-size: cover;
       display: flex;
       flex-direction: row;
