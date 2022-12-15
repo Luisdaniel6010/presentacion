@@ -9,5 +9,6 @@ export const ContPage = styled.div`
 
     padding: 20rem;
     
+    
 
 `;
