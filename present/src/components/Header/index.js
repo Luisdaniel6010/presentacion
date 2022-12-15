@@ -6,10 +6,10 @@ import { AreaHeader } from './styled';
 function Header() {
     return(
     <AreaHeader>
-
-       <div className="conteiner">
-        <div className="logo">
-            <img src="../../../laptop.svg"/>
+ <div className="conteiner">
+     
+ <div className="logo">
+        <img src="../../../laptop.svg"/>
         </div>
         <nav>
             <ul>
@@ -19,6 +19,7 @@ function Header() {
                 <li>Registrar</li>
             </ul>
         </nav>
+    
 
        </div>
 

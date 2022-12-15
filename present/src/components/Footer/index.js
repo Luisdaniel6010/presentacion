@@ -6,7 +6,13 @@ function Footer() {
 
     return(
        <AreaFooter>
-       todos los dereitos reservados
+       <div className="logo2">
+        <img src="../../../logo2.jpg"/>
+        </div>
+        <div className="logo2">
+        <img src="../../../logo1.jpg"/>
+        </div>
+       Todos os dereitos reservados.
     
        </AreaFooter>
     );

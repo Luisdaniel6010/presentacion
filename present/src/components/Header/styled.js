@@ -1,25 +1,25 @@
 import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
-height: 80px;
+height: 60px;
 background-color: #791e94;
 color: #fff;
+font-size: 18px;
+font-weight: 600;
 
-.container{
-    padding: 5px 20px;
+.conteiner{
+    padding: 5px 500px;
     display: flex;
-    aling-items: center;
-    width: 100%;
+    justify-content:flex-end;
+
 }
 
     .logo{
-    
         flex: 1;
     
-    
-
         img{
-            width: 25px;
+            width: 50px;
+           
         }
 
     }
@@ -27,12 +27,13 @@ color: #fff;
     nav{
 
         ul{
-            display: flex;
+            display: inline-flex;
         }
 
         li{
             list-style: none;
-            margin-left: 30px;
+            margin-left: 100px;
+            
         }
 
 
