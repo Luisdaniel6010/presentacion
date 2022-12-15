@@ -26,10 +26,12 @@ export default () => {
             </Route>
 
             <Route exact path="/Registro" element={<Registro />}>
-
-            <Route exact path="/Calendario" element={<Calendario />}></Route>    
              
             </Route>
+
+            <Route exact path="/Calendario" element={<Calendario />}>
+             
+             </Route>
 
         </Routes>
     );

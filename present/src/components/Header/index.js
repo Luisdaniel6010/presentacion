@@ -18,12 +18,10 @@ function Header() {
                 <li><Link to="/Login">Login</Link></li>
                 <li><Link to="/Catalogo">Catalogo</Link></li>
                 <li><Link to="/Registro">Registro</Link></li>
+                <li><Link to="/Calendario">Calendario</Link></li>
             </ul>
         </nav>
-    
-
        </div>
-
     </AreaHeader>
     );
 }
