@@ -2,8 +2,6 @@ import React from "react";
 
 import { ContPage } from '../../components/Main';
 import { AreaCalen } from './styled';
-import { Link } from 'react-router-dom'
-
 
 
 
@@ -18,12 +16,7 @@ const Page = () =>{
                 <p>Gostaria ajendar um horario para sua proxima aula?</p>
                 <p> Preencha as informações e marque sua proxima aula de programação</p>
             </div>
-          </div> 
-          <nav>
-            <ul>
-                <li><Link to="/App1.js">Calendario</Link></li>
-            </ul>
-        </nav>        
+          </div>      
           </AreaCalen>     
       </ContPage>
 

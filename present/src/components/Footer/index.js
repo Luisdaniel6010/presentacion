@@ -12,7 +12,7 @@ function Footer() {
         <div className="logo2">
         <img src="../../../logo1.jpg"/>
         </div>
-       Todos os dereitos reservados.
+       CT Cursos de Tecnologia
     
        </AreaFooter>
     );
