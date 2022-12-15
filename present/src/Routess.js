@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Catalogo from './pages/Catalogo';
 import Registro from './pages/Registro';
+import Calendario from './pages/Calendario';
 
 export default () => {
      
@@ -25,6 +26,8 @@ export default () => {
             </Route>
 
             <Route exact path="/Registro" element={<Registro />}>
+
+            <Route exact path="/Calendario" element={<Calendario />}></Route>    
              
             </Route>
 

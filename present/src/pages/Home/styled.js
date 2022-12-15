@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AreaHome = styled.div`
 
   .card2 {
+  
       position: relative;
       top: -150px;
       margin: 10px;
@@ -13,7 +14,9 @@ export const AreaHome = styled.div`
       line-height: 40px;
       color: white;
       font-size: 20px;
-      font-style: italic;    
+      font-style: italic;   
+      left: -200px; 
+
     }
 
   .textcard1 {
@@ -26,7 +29,8 @@ export const AreaHome = styled.div`
     line-height: 50px;
     color: white;
     font-size: 35px;
-    font-style: italic;  
+    font-style: italic; 
+    left: -200px; 
     
   }
 
