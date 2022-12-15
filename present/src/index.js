@@ -13,3 +13,12 @@ root.render(
   </React.StrictMode>
 );
 
+const root1 = ReactDOM.createRoot(document.getElementById('root'));
+root1.render(
+  <React.StrictMode>
+
+    <App />
+   
+  </React.StrictMode>
+);
+

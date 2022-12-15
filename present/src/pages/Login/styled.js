@@ -12,12 +12,12 @@ export const AreaLogin = styled.div`
     border-radius: 10px;
     background-color: transparent;
     text-align: left;
-    font-weight: 700;
+    font-weight: 600;
     size: 32px;
     line-height: 37px;
     left: -150px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic; 
     padding: 3rem;   
   
